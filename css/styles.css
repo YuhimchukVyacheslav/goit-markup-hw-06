@@ -561,7 +561,7 @@ p {
   line-height: calc(16 / 14);
   text-transform: uppercase;
   color: var(--btn-txt-cl);
-  padding-bottom: 20px;
+  margin-bottom: 20px;
 }
 
 .footer-socials-link {
@@ -589,8 +589,6 @@ p {
 }
 
 .subscribe {
-  display: flex;
-  flex-direction: column;
   margin-left: auto;
 }
 .subscribe-form {
@@ -602,7 +600,9 @@ p {
   width: 358px;
   height: 50px;
 
-  margin-right: 12px;
+  margin-right: 15px;
+    padding: 15px 16px;
+
 
   border: 1px solid rgba(255, 255, 255, 0.3);
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
